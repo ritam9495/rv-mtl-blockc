@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "ganache-cli": "^6.1.8",
+    "openzeppelin-solidity": "^4.3.2",
+    "solc": "^0.8.10",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "mocha": "^9.1.3"
+  }
+}

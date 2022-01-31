@@ -1,0 +1,111 @@
+----~~~~ 2 party Swap Protocol Speciifications~~~~----
+
+//val-setUp
+expr v1 = c.int_const("v1");
+s.add(1 <= v1 && v1 <= totNumEvents);
+s.add(implies(1 <= v1 && v1 <= totNumEvents, exists(v1, val1[bv2int(rho(v1), totNumEvents)] == 1)));
+check_result setUpStr = s.check();
+
+//val-Apricot-Premium
+expr v2 = c.int_const("v2");
+s.add(1 <= v2 && v2 <= totNumEvents);
+s.add(implies(1 <= v2 && v2 <= totNumEvents, exists(v2, val1[bv2int(rho(v2), totNumEvents)] == 1)));
+check_result aprPremium = s.check();
+
+//val-Apricot-Premium-Order
+expr v21 = c.int_const("v21");
+expr v22 = c.int_const("v22");
+s.add(1 <= v21 && v21 <= totNumEvents);
+s.add(1 <= v22 && v22 <= 2);
+s.add(implies(1 <= v21 && v21 <= totNumEvents, forall(v21, implies(1 <= v21 + v22 && v21 + v22 <= totNumEvents, 
+	exists(v22, val1[bv2int(rho(v21 + v22), totNumEvents)] == 1)))));
+check_result aprPremiumOrder = s.check();
+
+//val-Apricot-Escrow
+expr v3 = c.int_const("v3");
+s.add(1 <= v3 && v3 <= totNumEvents);
+s.add(implies(1 <= v3 && v3 <= totNumEvents, exists(v3, val1[bv2int(rho(v3), totNumEvents)] == 1)));
+check_result aprEscrow = s.check();
+
+//val-Apricot-Escrow-Order
+expr v31 = c.int_const("v31");
+expr v32 = c.int_const("v32");
+s.add(1 <= v31 && v31 <= totNumEvents);
+s.add(1 <= v32 && v32 <= 2);
+s.add(implies(1 <= v31 && v31 <= totNumEvents, forall(v31, implies(1 <= v31 + v32 && v31 + v32 <= totNumEvents, 
+	exists(v32, val1[bv2int(rho(v31 + v32), totNumEvents)] == 1)))));
+check_result aprEscrowOrder = s.check();
+
+//val-Apricot-Redeem
+expr v4 = c.int_const("v4");
+s.add(1 <= v4 && v4 <= totNumEvents);
+s.add(implies(1 <= v4 && v4 <= totNumEvents, exists(v4, val1[bv2int(rho(v4), totNumEvents)] == 1)));
+check_result aprRedeem = s.check();
+
+//val-Apricot-Redeem-Order
+expr v41 = c.int_const("v41");
+expr v42 = c.int_const("v42");
+s.add(1 <= v41 && v41 <= totNumEvents);
+s.add(1 <= v42 && v42 <= 2);
+s.add(implies(1 <= v41 && v41 <= totNumEvents, forall(v41, implies(1 <= v41 + v42 && v41 + v42 <= totNumEvents, 
+	exists(v42, val1[bv2int(rho(v41 + v42), totNumEvents)] == 1)))));
+check_result aprRedeemOrder = s.check();
+
+//val-Banana-Premium
+expr v5 = c.int_const("v5");
+s.add(1 <= v5 && v5 <= totNumEvents);
+s.add(implies(1 <= v5 && v5 <= totNumEvents, exists(v5, val1[bv2int(rho(v5), totNumEvents)] == 1)));
+check_result banPremium = s.check();
+
+//val-Banana-Premium-Order
+expr v51 = c.int_const("v51");
+expr v52 = c.int_const("v52");
+s.add(1 <= v51 && v51 <= totNumEvents);
+s.add(1 <= v52 && v52 <= 2);
+s.add(implies(1 <= v51 && v51 <= totNumEvents, forall(v51, implies(1 <= v51 + v52 && v51 + v52 <= totNumEvents, 
+	exists(v52, val1[bv2int(rho(v51 + v52), totNumEvents)] == 1)))));
+check_result banPremiumOrder = s.check();
+
+//val-Banana-Escrow
+expr v6 = c.int_const("v6");
+s.add(1 <= v6 && v6 <= totNumEvents);
+s.add(implies(1 <= v6 && v6 <= totNumEvents, exists(v6, val1[bv2int(rho(v6), totNumEvents)] == 1)));
+check_result banEscrow = s.check();
+
+//val-Banana-Escrow-Order
+expr v61 = c.int_const("v61");
+expr v62 = c.int_const("v62");
+s.add(1 <= v61 && v61 <= totNumEvents);
+s.add(1 <= v62 && v62 <= 2);
+s.add(implies(1 <= v61 && v61 <= totNumEvents, forall(v61, implies(1 <= v61 + v62 && v61 + v62 <= totNumEvents, 
+	exists(v62, val1[bv2int(rho(v61 + v62), totNumEvents)] == 1)))));
+check_result banEscrowOrder = s.check();
+
+//val-Banana-Redeem
+expr v7 = c.int_const("v7");
+s.add(1 <= v7 && v7 <= totNumEvents);
+s.add(implies(1 <= v7 && v7 <= totNumEvents, exists(v7, val1[bv2int(rho(v7), totNumEvents)] == 1)));
+check_result banRedeem = s.check();
+
+//val-Banana-Redeem-Order
+expr v71 = c.int_const("v71");
+expr v72 = c.int_const("v72");
+s.add(1 <= v71 && v71 <= totNumEvents);
+s.add(1 <= v72 && v72 <= 2);
+s.add(implies(1 <= v71 && v71 <= totNumEvents, forall(v71, implies(1 <= v71 + v72 && v71 + v72 <= totNumEvents, 
+	exists(v72, val1[bv2int(rho(v71 + v72), totNumEvents)] == 1)))));
+check_result banRedeemOrder = s.check();
+
+//val-Liveness
+if(aprEscrow == sat && aprPremium == sat && aprRedeem == sat && banPremium == sat && banEscrow == sat && banRedeem == sat)
+	cout << "Livesness: sat" << endl;
+else
+	cout << "Liveness: unsat" << endl;
+
+//val-Safety
+
+
+//val-Hedged
+
+----~~~~ 3 party Swap Protocol Specifications~~~~----
+

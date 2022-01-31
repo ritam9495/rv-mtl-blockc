@@ -1,0 +1,18 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "C", value = "a", time = "[0, 0, 1]">
+		<Event name = "1_2", type = "C", value = "", time = "[9, 9, 0]">
+		<Event name = "1_3", type = "C", value = "b", time = "[18, 18, 0]">
+		<Event name = "1_4", type = "C", value = "b", time = "[27, 27, 0]">
+		<Event name = "1_5", type = "C", value = "", time = "[36, 36, 0]">
+		<Event name = "1_6", type = "R", value = "18,18,0", time = "[45, 45, 0]">
+	<\Process>
+	<Process>
+		<Event name = "2_1", type = "C", value = "b", time = "[0, 0, 1]">
+		<Event name = "2_2", type = "C", value = "b", time = "[9, 9, 0]">
+		<Event name = "2_3", type = "S", value = "ALL", time = "[18, 18, 0]">
+		<Event name = "2_4", type = "C", value = "", time = "[27, 27, 0]">
+		<Event name = "2_5", type = "S", value = "ALL", time = "[36, 36, 0]">
+		<Event name = "2_6", type = "C", value = "b", time = "[45, 45, 0]">
+	<\Process>
+<\System>

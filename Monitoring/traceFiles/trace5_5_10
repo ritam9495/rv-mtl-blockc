@@ -1,0 +1,42 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "C", value = "", time = "[0, 0, 1]">
+		<Event name = "1_2", type = "C", value = "b", time = "[9, 9, 0]">
+		<Event name = "1_3", type = "C", value = "ab", time = "[18, 18, 0]">
+		<Event name = "1_4", type = "R", value = "18,18,0", time = "[27, 27, 0]">
+		<Event name = "1_5", type = "C", value = "ab", time = "[36, 36, 0]">
+		<Event name = "1_6", type = "C", value = "ab", time = "[45, 45, 0]">
+	<\Process>
+	<Process>
+		<Event name = "2_1", type = "C", value = "", time = "[0, 0, 1]">
+		<Event name = "2_2", type = "C", value = "", time = "[9, 9, 0]">
+		<Event name = "2_3", type = "R", value = "18,18,0", time = "[18, 18, 1]">
+		<Event name = "2_4", type = "C", value = "a", time = "[27, 27, 0]">
+		<Event name = "2_5", type = "C", value = "b", time = "[36, 36, 0]">
+		<Event name = "2_6", type = "C", value = "b", time = "[45, 45, 0]">
+	<\Process>
+	<Process>
+		<Event name = "3_1", type = "C", value = "b", time = "[0, 0, 1]">
+		<Event name = "3_2", type = "C", value = "", time = "[9, 9, 0]">
+		<Event name = "3_3", type = "S", value = "ALL", time = "[18, 18, 0]">
+		<Event name = "3_4", type = "C", value = "a", time = "[27, 27, 0]">
+		<Event name = "3_5", type = "C", value = "a", time = "[36, 36, 0]">
+		<Event name = "3_6", type = "C", value = "", time = "[45, 45, 0]">
+	<\Process>
+	<Process>
+		<Event name = "4_1", type = "C", value = "a", time = "[0, 0, 1]">
+		<Event name = "4_2", type = "R", value = "18,18,0", time = "[9, 18, 1]">
+		<Event name = "4_3", type = "C", value = "ab", time = "[18, 18, 0]">
+		<Event name = "4_4", type = "C", value = "b", time = "[27, 27, 0]">
+		<Event name = "4_5", type = "C", value = "ab", time = "[36, 36, 0]">
+		<Event name = "4_6", type = "C", value = "", time = "[45, 45, 0]">
+	<\Process>
+	<Process>
+		<Event name = "5_1", type = "C", value = "ab", time = "[0, 0, 1]">
+		<Event name = "5_2", type = "C", value = "b", time = "[9, 9, 0]">
+		<Event name = "5_3", type = "R", value = "18,18,0", time = "[18, 18, 1]">
+		<Event name = "5_4", type = "C", value = "a", time = "[27, 27, 0]">
+		<Event name = "5_5", type = "C", value = "ab", time = "[36, 36, 0]">
+		<Event name = "5_6", type = "C", value = "b", time = "[45, 45, 0]">
+	<\Process>
+<\System>

@@ -1,0 +1,63 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "R", value = "0,0,1", time = "[0, 0, 2]">
+		<Event name = "1_2", type = "C", value = "b", time = "[11, 11, 0]">
+		<Event name = "1_3", type = "C", value = "", time = "[22, 22, 0]">
+		<Event name = "1_4", type = "R", value = "44,44,0", time = "[33, 44, 1]">
+		<Event name = "1_5", type = "R", value = "55,55,0", time = "[44, 55, 1]">
+		<Event name = "1_6", type = "C", value = "b", time = "[55, 55, 0]">
+		<Event name = "1_7", type = "C", value = "ab", time = "[66, 66, 0]">
+		<Event name = "1_8", type = "C", value = "a", time = "[77, 77, 0]">
+		<Event name = "1_9", type = "S", value = "ALL", time = "[88, 88, 0]">
+		<Event name = "1_10", type = "C", value = "b", time = "[99, 99, 0]">
+		<Event name = "1_11", type = "R", value = "44,44,0", time = "[110, 110, 0]">
+		<Event name = "1_12", type = "C", value = "", time = "[121, 121, 0]">
+		<Event name = "1_13", type = "C", value = "ab", time = "[133, 133, 0]">
+		<Event name = "1_14", type = "C", value = "b", time = "[144, 144, 0]">
+		<Event name = "1_15", type = "C", value = "ab", time = "[155, 155, 0]">
+		<Event name = "1_16", type = "C", value = "ab", time = "[166, 166, 0]">
+		<Event name = "1_17", type = "C", value = "ab", time = "[177, 177, 0]">
+		<Event name = "1_18", type = "C", value = "a", time = "[188, 188, 0]">
+		<Event name = "1_19", type = "C", value = "ab", time = "[199, 199, 0]">
+	<\Process>
+	<Process>
+		<Event name = "2_1", type = "S", value = "ALL", time = "[0, 0, 1]">
+		<Event name = "2_2", type = "C", value = "", time = "[11, 11, 0]">
+		<Event name = "2_3", type = "C", value = "", time = "[22, 22, 0]">
+		<Event name = "2_4", type = "C", value = "ab", time = "[33, 33, 0]">
+		<Event name = "2_5", type = "S", value = "ALL", time = "[44, 44, 0]">
+		<Event name = "2_6", type = "S", value = "ALL", time = "[55, 55, 0]">
+		<Event name = "2_7", type = "C", value = "", time = "[67, 67, 0]">
+		<Event name = "2_8", type = "C", value = "b", time = "[78, 78, 0]">
+		<Event name = "2_9", type = "C", value = "ab", time = "[89, 89, 0]">
+		<Event name = "2_10", type = "C", value = "", time = "[100, 100, 0]">
+		<Event name = "2_11", type = "C", value = "a", time = "[111, 111, 0]">
+		<Event name = "2_12", type = "C", value = "a", time = "[122, 122, 0]">
+		<Event name = "2_13", type = "R", value = "88,88,0", time = "[134, 134, 0]">
+		<Event name = "2_14", type = "C", value = "ab", time = "[145, 145, 0]">
+		<Event name = "2_15", type = "R", value = "44,44,0", time = "[156, 156, 0]">
+		<Event name = "2_16", type = "C", value = "", time = "[167, 167, 0]">
+		<Event name = "2_17", type = "C", value = "a", time = "[178, 178, 0]">
+		<Event name = "2_18", type = "C", value = "a", time = "[190, 190, 0]">
+	<\Process>
+	<Process>
+		<Event name = "3_1", type = "R", value = "0,0,1", time = "[0, 0, 2]">
+		<Event name = "3_2", type = "R", value = "44,44,0", time = "[11, 44, 1]">
+		<Event name = "3_3", type = "R", value = "55,55,0", time = "[22, 55, 1]">
+		<Event name = "3_4", type = "R", value = "88,88,0", time = "[33, 88, 1]">
+		<Event name = "3_5", type = "S", value = "ALL", time = "[44, 44, 0]">
+		<Event name = "3_6", type = "C", value = "", time = "[55, 55, 0]">
+		<Event name = "3_7", type = "C", value = "", time = "[66, 66, 0]">
+		<Event name = "3_8", type = "C", value = "", time = "[78, 78, 0]">
+		<Event name = "3_9", type = "C", value = "", time = "[89, 89, 0]">
+		<Event name = "3_10", type = "C", value = "a", time = "[100, 100, 0]">
+		<Event name = "3_11", type = "C", value = "ab", time = "[111, 111, 0]">
+		<Event name = "3_12", type = "C", value = "a", time = "[122, 122, 0]">
+		<Event name = "3_13", type = "C", value = "", time = "[134, 134, 0]">
+		<Event name = "3_14", type = "C", value = "b", time = "[145, 145, 0]">
+		<Event name = "3_15", type = "C", value = "b", time = "[156, 156, 0]">
+		<Event name = "3_16", type = "C", value = "b", time = "[167, 167, 0]">
+		<Event name = "3_17", type = "C", value = "a", time = "[179, 179, 0]">
+		<Event name = "3_18", type = "C", value = "b", time = "[191, 191, 0]">
+	<\Process>
+<\System>

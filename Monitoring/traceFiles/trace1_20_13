@@ -1,0 +1,35 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "C", value = "", time = "[0, 0, 1]">
+		<Event name = "1_2", type = "C", value = "a", time = "[7, 7, 0]">
+		<Event name = "1_3", type = "C", value = "b", time = "[14, 14, 0]">
+		<Event name = "1_4", type = "C", value = "b", time = "[20, 20, 0]">
+		<Event name = "1_5", type = "C", value = "", time = "[26, 26, 0]">
+		<Event name = "1_6", type = "C", value = "", time = "[32, 32, 0]">
+		<Event name = "1_7", type = "C", value = "ab", time = "[39, 39, 0]">
+		<Event name = "1_8", type = "C", value = "", time = "[46, 46, 0]">
+		<Event name = "1_9", type = "C", value = "", time = "[53, 53, 0]">
+		<Event name = "1_10", type = "C", value = "ab", time = "[59, 59, 0]">
+		<Event name = "1_11", type = "C", value = "b", time = "[66, 66, 0]">
+		<Event name = "1_12", type = "C", value = "a", time = "[73, 73, 0]">
+		<Event name = "1_13", type = "C", value = "a", time = "[80, 80, 0]">
+		<Event name = "1_14", type = "C", value = "a", time = "[86, 86, 0]">
+		<Event name = "1_15", type = "C", value = "b", time = "[93, 93, 0]">
+		<Event name = "1_16", type = "C", value = "a", time = "[99, 99, 0]">
+		<Event name = "1_17", type = "C", value = "a", time = "[106, 106, 0]">
+		<Event name = "1_18", type = "C", value = "", time = "[113, 113, 0]">
+		<Event name = "1_19", type = "C", value = "", time = "[119, 119, 0]">
+		<Event name = "1_20", type = "C", value = "ab", time = "[126, 126, 0]">
+		<Event name = "1_21", type = "C", value = "", time = "[132, 132, 0]">
+		<Event name = "1_22", type = "C", value = "a", time = "[139, 139, 0]">
+		<Event name = "1_23", type = "C", value = "a", time = "[146, 146, 0]">
+		<Event name = "1_24", type = "C", value = "", time = "[153, 153, 0]">
+		<Event name = "1_25", type = "C", value = "b", time = "[159, 159, 0]">
+		<Event name = "1_26", type = "C", value = "ab", time = "[165, 165, 0]">
+		<Event name = "1_27", type = "C", value = "b", time = "[171, 171, 0]">
+		<Event name = "1_28", type = "C", value = "a", time = "[177, 177, 0]">
+		<Event name = "1_29", type = "C", value = "a", time = "[184, 184, 0]">
+		<Event name = "1_30", type = "C", value = "", time = "[191, 191, 0]">
+		<Event name = "1_31", type = "C", value = "", time = "[198, 198, 0]">
+	<\Process>
+<\System>

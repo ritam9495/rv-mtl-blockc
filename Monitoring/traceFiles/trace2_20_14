@@ -1,0 +1,74 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "C", value = "", time = "[0, 0, 1]">
+		<Event name = "1_2", type = "C", value = "a", time = "[6, 6, 0]">
+		<Event name = "1_3", type = "R", value = "48,48,0", time = "[12, 48, 1]">
+		<Event name = "1_4", type = "R", value = "66,66,0", time = "[18, 66, 1]">
+		<Event name = "1_5", type = "R", value = "84,84,0", time = "[24, 84, 1]">
+		<Event name = "1_6", type = "C", value = "ab", time = "[30, 30, 0]">
+		<Event name = "1_7", type = "C", value = "ab", time = "[36, 36, 0]">
+		<Event name = "1_8", type = "C", value = "ab", time = "[42, 42, 0]">
+		<Event name = "1_9", type = "C", value = "", time = "[48, 48, 0]">
+		<Event name = "1_10", type = "C", value = "a", time = "[54, 54, 0]">
+		<Event name = "1_11", type = "C", value = "a", time = "[60, 60, 0]">
+		<Event name = "1_12", type = "R", value = "114,114,0", time = "[66, 114, 1]">
+		<Event name = "1_13", type = "C", value = "ab", time = "[72, 72, 0]">
+		<Event name = "1_14", type = "C", value = "", time = "[78, 78, 0]">
+		<Event name = "1_15", type = "C", value = "ab", time = "[84, 84, 0]">
+		<Event name = "1_16", type = "C", value = "ab", time = "[90, 90, 0]">
+		<Event name = "1_17", type = "C", value = "a", time = "[96, 96, 0]">
+		<Event name = "1_18", type = "R", value = "132,132,0", time = "[102, 132, 1]">
+		<Event name = "1_19", type = "C", value = "", time = "[108, 108, 0]">
+		<Event name = "1_20", type = "S", value = "ALL", time = "[114, 114, 0]">
+		<Event name = "1_21", type = "C", value = "", time = "[120, 120, 0]">
+		<Event name = "1_22", type = "C", value = "a", time = "[126, 126, 0]">
+		<Event name = "1_23", type = "C", value = "b", time = "[132, 132, 0]">
+		<Event name = "1_24", type = "C", value = "b", time = "[138, 138, 0]">
+		<Event name = "1_25", type = "C", value = "ab", time = "[144, 144, 0]">
+		<Event name = "1_26", type = "C", value = "b", time = "[150, 150, 0]">
+		<Event name = "1_27", type = "C", value = "b", time = "[156, 156, 0]">
+		<Event name = "1_28", type = "C", value = "b", time = "[162, 162, 0]">
+		<Event name = "1_29", type = "C", value = "ab", time = "[168, 168, 0]">
+		<Event name = "1_30", type = "C", value = "a", time = "[174, 174, 0]">
+		<Event name = "1_31", type = "C", value = "ab", time = "[180, 180, 0]">
+		<Event name = "1_32", type = "C", value = "a", time = "[186, 186, 0]">
+		<Event name = "1_33", type = "R", value = "186,186,0", time = "[192, 192, 0]">
+		<Event name = "1_34", type = "C", value = "", time = "[198, 198, 0]">
+	<\Process>
+	<Process>
+		<Event name = "2_1", type = "C", value = "a", time = "[0, 0, 1]">
+		<Event name = "2_2", type = "C", value = "ab", time = "[6, 6, 0]">
+		<Event name = "2_3", type = "C", value = "a", time = "[12, 12, 0]">
+		<Event name = "2_4", type = "C", value = "a", time = "[18, 18, 0]">
+		<Event name = "2_5", type = "C", value = "", time = "[24, 24, 0]">
+		<Event name = "2_6", type = "C", value = "a", time = "[30, 30, 0]">
+		<Event name = "2_7", type = "C", value = "ab", time = "[36, 36, 0]">
+		<Event name = "2_8", type = "C", value = "", time = "[42, 42, 0]">
+		<Event name = "2_9", type = "S", value = "ALL", time = "[48, 48, 0]">
+		<Event name = "2_10", type = "C", value = "", time = "[54, 54, 0]">
+		<Event name = "2_11", type = "C", value = "a", time = "[60, 60, 0]">
+		<Event name = "2_12", type = "S", value = "ALL", time = "[66, 66, 0]">
+		<Event name = "2_13", type = "C", value = "", time = "[72, 72, 0]">
+		<Event name = "2_14", type = "C", value = "a", time = "[78, 78, 0]">
+		<Event name = "2_15", type = "S", value = "ALL", time = "[84, 84, 0]">
+		<Event name = "2_16", type = "C", value = "b", time = "[90, 90, 0]">
+		<Event name = "2_17", type = "C", value = "", time = "[96, 96, 0]">
+		<Event name = "2_18", type = "C", value = "a", time = "[102, 102, 0]">
+		<Event name = "2_19", type = "C", value = "ab", time = "[108, 108, 0]">
+		<Event name = "2_20", type = "S", value = "ALL", time = "[114, 114, 0]">
+		<Event name = "2_21", type = "C", value = "", time = "[120, 120, 0]">
+		<Event name = "2_22", type = "C", value = "b", time = "[126, 126, 0]">
+		<Event name = "2_23", type = "S", value = "ALL", time = "[132, 132, 0]">
+		<Event name = "2_24", type = "R", value = "114,114,0", time = "[138, 138, 0]">
+		<Event name = "2_25", type = "C", value = "ab", time = "[144, 144, 0]">
+		<Event name = "2_26", type = "C", value = "", time = "[150, 150, 0]">
+		<Event name = "2_27", type = "C", value = "a", time = "[156, 156, 0]">
+		<Event name = "2_28", type = "C", value = "ab", time = "[162, 162, 0]">
+		<Event name = "2_29", type = "C", value = "a", time = "[168, 168, 0]">
+		<Event name = "2_30", type = "C", value = "", time = "[174, 174, 0]">
+		<Event name = "2_31", type = "C", value = "b", time = "[180, 180, 0]">
+		<Event name = "2_32", type = "S", value = "ALL", time = "[186, 186, 0]">
+		<Event name = "2_33", type = "C", value = "", time = "[192, 192, 0]">
+		<Event name = "2_34", type = "C", value = "b", time = "[198, 198, 0]">
+	<\Process>
+<\System>

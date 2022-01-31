@@ -1,0 +1,21 @@
+<System>
+	<Process>
+		<Event name = "1_1", type = "C", value = "b", time = "[0, 0, 1]">
+		<Event name = "1_2", type = "C", value = "ab", time = "[9, 9, 0]">
+		<Event name = "1_3", type = "C", value = "b", time = "[18, 18, 0]">
+		<Event name = "1_4", type = "C", value = "", time = "[27, 27, 0]">
+		<Event name = "1_5", type = "C", value = "a", time = "[36, 36, 0]">
+		<Event name = "1_6", type = "C", value = "", time = "[45, 45, 0]">
+		<Event name = "1_7", type = "C", value = "b", time = "[54, 54, 0]">
+		<Event name = "1_8", type = "C", value = "ab", time = "[63, 63, 0]">
+		<Event name = "1_9", type = "C", value = "", time = "[72, 72, 0]">
+		<Event name = "1_10", type = "C", value = "ab", time = "[81, 81, 0]">
+		<Event name = "1_11", type = "C", value = "", time = "[90, 90, 0]">
+		<Event name = "1_12", type = "C", value = "", time = "[99, 99, 0]">
+		<Event name = "1_13", type = "C", value = "ab", time = "[108, 108, 0]">
+		<Event name = "1_14", type = "C", value = "ab", time = "[117, 117, 0]">
+		<Event name = "1_15", type = "C", value = "", time = "[126, 126, 0]">
+		<Event name = "1_16", type = "C", value = "b", time = "[135, 135, 0]">
+		<Event name = "1_17", type = "C", value = "ab", time = "[144, 144, 0]">
+	<\Process>
+<\System>

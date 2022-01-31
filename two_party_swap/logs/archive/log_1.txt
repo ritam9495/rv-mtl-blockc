@@ -1,0 +1,89 @@
+Apricot:
+[
+  {
+    event: 'SetUp',
+    props: {
+      timestamp: 0,
+      hashLock: '0x964147060975cf2059ef324ae1321762831fb1cc3f7008f932ff2fda73680475',
+      alice: '0xab3D51e8CC751113c712adfeb6f795A4211229c2',
+      bob: '0xf40aFE13ea03cB78F7A90C4342388d9817603382',
+      expectedPremium: '10',
+      currentPremium: '0',
+      expectedAsset: '1000',
+      currentAsset: '0',
+      delta: '5',
+      startTime: '1637441276'
+    }
+  },
+  {
+    event: 'PremiumDeposited',
+    props: {
+      timestamp: 0,
+      expectedPremium: '10',
+      currentPremium: '10',
+      messageSender: '0xf40aFE13ea03cB78F7A90C4342388d9817603382'
+    }
+  },
+  {
+    event: 'AssetEscrowed',
+    props: {
+      timestamp: 1,
+      expectedAsset: '1000',
+      currentAsset: '1000',
+      messageSender: '0xab3D51e8CC751113c712adfeb6f795A4211229c2'
+    }
+  },
+  {
+    event: 'AssetRedeemed',
+    props: {
+      timestamp: 1,
+      expectedAsset: '1000',
+      currentAsset: '0',
+      messageSender: '0xf40aFE13ea03cB78F7A90C4342388d9817603382'
+    }
+  }
+]
+Banana:
+[
+  {
+    event: 'SetUp',
+    props: {
+      timestamp: 0,
+      hashLock: '0x964147060975cf2059ef324ae1321762831fb1cc3f7008f932ff2fda73680475',
+      alice: '0xab3D51e8CC751113c712adfeb6f795A4211229c2',
+      bob: '0xf40aFE13ea03cB78F7A90C4342388d9817603382',
+      expectedPremium: '10',
+      currentPremium: '0',
+      expectedAsset: '1000',
+      currentAsset: '0',
+      delta: '20'
+    }
+  },
+  {
+    event: 'PremiumDeposited',
+    props: {
+      timestamp: 0,
+      expectedPremium: '10',
+      currentPremium: '10',
+      messageSender: '0xab3D51e8CC751113c712adfeb6f795A4211229c2'
+    }
+  },
+  {
+    event: 'AssetEscrowed',
+    props: {
+      timestamp: 1,
+      expectedAsset: '1000',
+      currentAsset: '1000',
+      messageSender: '0xf40aFE13ea03cB78F7A90C4342388d9817603382'
+    }
+  },
+  {
+    event: 'AssetRedeemed',
+    props: {
+      timestamp: 1,
+      expectedAsset: '1000',
+      currentAsset: '0',
+      messageSender: '0xab3D51e8CC751113c712adfeb6f795A4211229c2'
+    }
+  }
+]

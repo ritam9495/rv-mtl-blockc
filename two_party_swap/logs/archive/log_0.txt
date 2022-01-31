@@ -1,0 +1,58 @@
+Apricot:
+[
+  {
+    event: 'SetUp',
+    props: {
+      timestamp: 0,
+      hashLock: '0x964147060975cf2059ef324ae1321762831fb1cc3f7008f932ff2fda73680475',
+      alice: '0x248Ba02da7A9a0fd8d92bCc74fD15913018B4bE6',
+      bob: '0xc75b83d51cEf40584F8b7Bb6C717E5Bf9Bbe6725',
+      expectedPremium: '10',
+      currentPremium: '0',
+      expectedAsset: '1000',
+      currentAsset: '0',
+      delta: '5'
+    }
+  },
+  {
+    event: 'PremiumDeposited',
+    props: { timestamp: 1, expectedPremium: '10', currentPremium: '10' }
+  },
+  {
+    event: 'AssetEscrowed',
+    props: { timestamp: 1, expectedAsset: '1000', currentAsset: '1000' }
+  },
+  {
+    event: 'AssetRedeemed',
+    props: { timestamp: 1, expectedAsset: '1000', currentAsset: '0' }
+  }
+]
+Banana:
+[
+  {
+    event: 'SetUp',
+    props: {
+      timestamp: 0,
+      hashLock: '0x964147060975cf2059ef324ae1321762831fb1cc3f7008f932ff2fda73680475',
+      alice: '0x248Ba02da7A9a0fd8d92bCc74fD15913018B4bE6',
+      bob: '0xc75b83d51cEf40584F8b7Bb6C717E5Bf9Bbe6725',
+      expectedPremium: '10',
+      currentPremium: '0',
+      expectedAsset: '1000',
+      currentAsset: '0',
+      delta: '20'
+    }
+  },
+  {
+    event: 'PremiumDeposited',
+    props: { timestamp: 0, expectedPremium: '10', currentPremium: '10' }
+  },
+  {
+    event: 'AssetEscrowed',
+    props: { timestamp: 1, expectedAsset: '1000', currentAsset: '1000' }
+  },
+  {
+    event: 'AssetRedeemed',
+    props: { timestamp: 1, expectedAsset: '1000', currentAsset: '0' }
+  }
+]

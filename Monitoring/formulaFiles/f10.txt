@@ -1,0 +1,5 @@
+digraph G {
+"(0, 0)" -> "(0, 0)" [label = "(<empty>)"];
+"(0, 0)" -> "(0, 0)" [label = "(p)"];
+"(0, 0)" [label="(0, 0)", style=filled, color=yellow]
+}
